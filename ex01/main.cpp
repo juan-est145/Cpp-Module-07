@@ -6,7 +6,7 @@
 /*   By: juestrel <juestrel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 11:27:45 by juestrel          #+#    #+#             */
-/*   Updated: 2024/11/07 12:08:42 by juestrel         ###   ########.fr       */
+/*   Updated: 2024/11/07 12:11:18 by juestrel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int main(void)
 
 	{
 		char string[] = "This is a test";
-		iter(string, sizeof(string) / sizeof(string[0]), printArray);		
+		iter(string, sizeof(string) / sizeof(string[0]), printArray);
 	}
 	return (0);
 }

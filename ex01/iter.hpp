@@ -5,7 +5,7 @@
 #include <cstdlib>
 
 template <typename T>
-void iter(T *addres, size_t length, void(*func)(T&))
+void iter(T *addres, size_t length, void (*func)(T &))
 {
 	for (size_t i = 0; i < length; i++)
 		func(addres[i]);
